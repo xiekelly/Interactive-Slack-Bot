@@ -1,0 +1,18 @@
+Assignment 2: Interactive Slack bot that implements NYTimes Top Stories API
+Kelly Xie, PPDS Spring 2017
+
+
+1. How to interact with ‘NewsBot’:
+
+ASK “@user_id bot what is the latest news on XXXXX”
+Note: the query is not case sensitive, i.e. “Trump”, “trump”, “tRuMP” should return the same results
+
+
+2. Two python notebooks:
+	
+	SlackBot_FetchFromDatabase.ipynb
+	SlackBot_FetchFromURL.ipynb
+
+The first one fetches data from MySQL’NYT_TopStories’ database from host (34.199.88.98). This is the one that is running in the background.
+
+The second fetches data directly from the API url.
